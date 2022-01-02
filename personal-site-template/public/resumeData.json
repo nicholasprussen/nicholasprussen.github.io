@@ -1,10 +1,10 @@
 {
   "main": {
     "name":"Nicholas Prussen",
-    "occupation":"Student",
-    "description":"studying Computer Science in my Senior year at Boise State University",
+    "occupation":"Full Stack Developer",
+    "description":"with a Bachelors of Science in Computer Science, seeking out a full time web development position",
     "image":"profilepic.jpg",
-    "bio":"Computer Science major in my senior year at Boise State University. I'm very passionate about programming and I absolutely love jumping into the deep end on new projects and new languages. Lately I've begun a summer internship at Hewlett Packard Enterprise (HPE) working on internal tools and bug prediction.",
+    "bio":"Recent graduate from Boise State University, earning my Bachelors in Science of Computer Science. I'm very passionate about programming and I absolutely love jumping into the deep end on new projects and new languages. Lately I've been working with the Hydroframe lab at Boise State University in integrating Vue.js with their existing Flask application to aid in client side operations on the project.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "nprussen@gmail.com",
     "phone": "253-459-4400",
@@ -45,17 +45,23 @@
     "education":[
       {
         "school":"Boise State University",
-        "degree":"Bachelor in Computer Science",
+        "degree":"Bachelors of Science in Computer Science",
         "graduated":"December 2021",
-        "description":"Data Structures, Linear Algebra, Databases, Systems Programming, Programming Languages, Discrete Mathematics"
+        "description":"Operating Systems, Data Structures, Linear Algebra, Databases, Systems Programming, Programming Languages, Discrete Mathematics, Web Development"
       }
     ],
     "work":[
       {
+        "company":"Hydroframe (Boise State University)",
+        "title":"Student/Temp Researcher",
+        "years":"August 2021 - Ongoing",
+        "description":"Currently helping develop an internal Flask application and integrate it with Vue.js to automate subsetting CONUS domains using the hydrological model ParFlow."
+      },
+      {
         "company":"Hewlett Packard Enterprise (HPE)",
         "title":"Intern",
-        "years":"May 2021 - Present",
-        "description":"Working on proprietary internal tools to help aid in bug prediction and cut down on bug diagnosing time."
+        "years":"May 2021 - August 2021",
+        "description":"Working on proprietary internal tools to help aid in bug prediction and cut down on bug triage."
       },
       {
         "company":"Adapt Data Flow Optimizations Lab",
@@ -83,15 +89,15 @@
         "level":"70%"
       },
       {
-        "name":"Web Dev Frontend (HTML/CSS/React/PHP)",
+        "name":"HTML/CSS",
         "level":"80%"
       },
       {
-        "name":"Web Dev Backend (Flask/PHP)",
+        "name":"Flask",
         "level":"80%"
       },
       {
-        "name":"Database Management (MongoDB/MySQL)",
+        "name":"MongoDB",
         "level":"70%"
       },
       {
@@ -101,11 +107,61 @@
       {
         "name":"Java",
         "level":"85%"
+      },
+      {
+        "name": "React.js",
+        "level": ""
+      },
+      {
+        "name": "Vue.js",
+        "level": ""
+      },
+      {
+        "name": "SCSS",
+        "level": ""
+      },
+      {
+        "name": "JQuery",
+        "level": ""
+      },
+      {
+        "name": "PHP",
+        "level": ""
+      },
+      {
+        "name": "AngularJS",
+        "level": ""
+      },
+      {
+        "name": "MySQL",
+        "level": ""
+      },
+      {
+        "name": "Git/GitHub",
+        "level": ""
+      },
+      {
+        "name": "Heroku",
+        "level": ""
+      },
+      {
+        "name": "C",
+        "level": ""
+      },
+      {
+        "name": "C#",
+        "level": ""
       }
     ]
   },
   "portfolio":{
     "projects": [
+      {
+        "title":"Amplyst.com",
+        "category":"Passion project exploring Full Stack Web Development with React, Flask and MongoDB",
+        "image":"amplyst.PNG",
+        "url":"https://github.com/BoiseState-AdaptLab/adapt-lidar-tools"
+      },
       {
         "title":"Adapt Lidar Tools",
         "category":"An array of tools for processing full-waveform lidar data.",
@@ -125,10 +181,10 @@
         "url":"https://github.com/Scorch-Git/com.scorchgames.wumpusworld"
       },
       {
-        "title":"Parflow Performance Benchmarks Website",
-        "category":"Currently being built using React, Flask and MongoDB. Still in development but will be public when finished.",
-        "image":"performancetestingwebsite.png",
-        "url":""
+        "title":"PFCLM Flask App",
+        "category":"Flask application to help in the management of ParFlow runs",
+        "image":"pfclm.PNG",
+        "url":"https://github.com/hydroframe/pfclm-flask-app"
       }
     ]
   },
